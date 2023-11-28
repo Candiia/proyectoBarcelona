@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+#maquetacion{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#maquetacion header img{
+    width: 100%;
+
+}
+
+/*#1a294c; azul barcelona*/
+/*#af2432; granate*/
+
+#maquetacion #contenido aside{
+
+   	flex: 1 1 15%;
+    list-style-type: none;
+    background-color: #1a294c;
+    color: rgb(255, 255, 255);
+    padding: 20px 3%;
+
+}
+
+#maquetacion #contenido aside a{
+    text-decoration: none;
+}
+
+#maquetacion #contenido{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+	font-family: "Vina";
+}
+
+#maquetacion #contenido main {
+	min-height: 1000px;
+    flex: 1 1 70%;
+    padding: 20px 3%;
+	
+	color: white;
+	background-color: #af2432;
+	
+}
+
+#maquetacion #contenido main ul{
+	list-style-type: none;
+	font-size: 70px;
+	text-align: center;
+}
+
+#maquetacion #contenido main li a{
+	text-decoration: none;
+	color: white;
+}
+
+#maquetacion #contenido main p {
+
+}
+
+
+#maquetacion footer{
+
+	background-color: #FEDC00;
+	font-size: 12pt;	
+	color: white;
+	text-align: center;
+
+	width: 100%;
+	padding-top:10px;
+	padding-bottom:10px;
+
+}
+
+
+@font-face {
+	font-family: "Vina";
+	src: url(../font/VinaSans-Regular.ttf);
+}
