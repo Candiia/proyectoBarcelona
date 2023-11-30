@@ -59,7 +59,15 @@
 }
 
 #maquetacion #contenido main p {
+	font-family: 'Courier New', Courier, monospace;
+}
 
+#maquetacion #contenido main h1{
+	color: #FEDC00    ;
+}
+#maquetacion #contenido main h1 a{
+	text-decoration: none;
+	color: white;
 }
 
 
@@ -69,7 +77,6 @@
 	font-size: 12pt;	
 	color: white;
 	text-align: center;
-
 	width: 100%;
 	padding-top:10px;
 	padding-bottom:10px;
