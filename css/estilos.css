@@ -27,6 +27,7 @@
     background-color: #1a294c;
     color: rgb(255, 255, 255);
     padding: 20px 3%;
+	font-size: 15pt;
 
 }
 
@@ -71,6 +72,7 @@
 width: 75%;
 }
 
+
 #maquetacion #contenido main p{
 	font-family: 'Courier New', Courier, monospace;
 }
@@ -78,6 +80,11 @@ width: 75%;
 #maquetacion #contenido main h1{
 	color: #FEDC00    ;
 }
+
+#maquetacion #contenido main h2{
+	color: #e7d458    ;
+}
+
 #maquetacion #contenido main h1 a{
 	text-decoration: none;
 	color: white;
