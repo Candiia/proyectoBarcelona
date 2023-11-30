@@ -69,6 +69,14 @@
 
 #maquetacion #contenido main div img {
 width: 75%;
+<<<<<<< HEAD
+=======
+}
+
+#maquetacion #contenido main p{
+	font-family: 'Courier New', Courier, monospace;
+}
+>>>>>>> d51a1a0b8c1c9646f2d14bea1a2d5c80bd88be9e
 
 #maquetacion #contenido main h1{
 	color: #FEDC00    ;
