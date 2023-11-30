@@ -7,6 +7,11 @@
     margin: 0 auto;
 }
 
+#maquetacion header{
+	background-color: #eac310;
+
+}
+
 #maquetacion header img{
     width: 100%;
 
@@ -34,7 +39,7 @@
     align-items: stretch;
     flex-direction: row;
     justify-content: space-between;
-	font-family: "Vina";
+	font-family: "Bebas";
 }
 
 #maquetacion #contenido main {
@@ -58,9 +63,18 @@
 	color: white;
 }
 
+<<<<<<< HEAD
 #maquetacion #contenido main p {
 	font-family: 'Courier New', Courier, monospace;
 }
+=======
+#maquetacion #contenido main div {
+	text-align: center;
+	}
+
+#maquetacion #contenido main div img {
+width: 75%;
+>>>>>>> 0e0606a2966182a352651fa3ee0cf9f603464d81
 
 #maquetacion #contenido main h1{
 	color: #FEDC00    ;
@@ -70,13 +84,17 @@
 	color: white;
 }
 
-
 #maquetacion footer{
 
 	background-color: #FEDC00;
 	font-size: 12pt;	
+<<<<<<< HEAD
 	color: white;
 	text-align: center;
+=======
+	color: rgb(1, 1, 1);
+	display: flex;
+>>>>>>> 0e0606a2966182a352651fa3ee0cf9f603464d81
 	width: 100%;
 	padding-top:10px;
 	padding-bottom:10px;
@@ -85,6 +103,6 @@
 
 
 @font-face {
-	font-family: "Vina";
-	src: url(../font/VinaSans-Regular.ttf);
+	font-family: "Bebas";
+	src: url(../font/BebasNeue-Regular.ttf);
 }
