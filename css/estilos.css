@@ -91,6 +91,15 @@ width: 75%;
 	color: white;
 }
 
+#maquetacion #contenido main .siguiente{
+	text-align: right;
+}
+#maquetacion #contenido main .siguiente a{
+	
+	text-decoration: none;
+	color: white;
+}
+
 #maquetacion footer{
 
 	background-color: #FEDC00;
