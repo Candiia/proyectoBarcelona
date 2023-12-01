@@ -1,14 +1,16 @@
 #fondo {
-    height: 900px;
+    height: 1000px;
     background-image: url(../img/Camp-Nou.jpg);
 }
-footer{
+
+footer {
     background-color: #af2432;
     display: flex;
     color: white;
     height: 39px;
+    margin: 0px;
 }
 
-
-
-
+body {
+    margin: 0px;
+}
