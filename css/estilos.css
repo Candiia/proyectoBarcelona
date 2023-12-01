@@ -1,115 +1,128 @@
-*{
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
 
-#maquetacion{
-    width: 100%;
-    margin: 0 auto;
+#maquetacion {
+	width: 100%;
+	margin: 0 auto;
 }
 
-#maquetacion header{
+#maquetacion header {
 	background-color: #eac310;
 
 }
 
-#maquetacion header img{
-    width: 100%;
+#maquetacion header img {
+	width: 100%;
 
 }
 
 /*#1a294c; azul barcelona*/
 /*#af2432; granate*/
 
-#maquetacion #contenido aside{
+#maquetacion #contenido aside {
 
-   	flex: 1 1 15%;
-    list-style-type: none;
-    background-color: #1a294c;
-    color: rgb(255, 255, 255);
-    padding: 20px 3%;
-	font-size: 15pt;
+	flex: 1 1 15%;
+	list-style-type: none;
+	background-color: #1a294c;
+	color: rgb(255, 255, 255);
+	padding: 20px 3%;
+	font-size: 18pt;
+
 
 }
 
-#maquetacion #contenido aside a{
-    text-decoration: none;
+#maquetacion #contenido aside h1 {
+	font-size: 25pt;
+	text-align: center;
+}
+
+
+#maquetacion #contenido aside a {
+	text-decoration: none;
 	color: white;
 }
 
-#maquetacion #contenido{
-    display: flex;
-    align-items: stretch;
-    flex-direction: row;
-    justify-content: space-between;
+#maquetacion #contenido {
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	justify-content: space-between;
 	font-family: "Bebas";
 }
 
 #maquetacion #contenido main {
 	min-height: 1000px;
-    flex: 1 1 70%;
-    padding: 20px 3%;
-	
+	flex: 1 1 70%;
+	padding: 20px 3%;
+
 	color: white;
 	background-color: #af2432;
-	
+
 }
 
-#maquetacion #contenido main ul{
+#maquetacion #contenido main ul {
 	list-style-type: none;
 	font-size: 70px;
 	text-align: center;
 }
 
-#maquetacion #contenido main li a{
+#maquetacion #contenido main li a {
 	text-decoration: none;
 	color: white;
 }
 
 #maquetacion #contenido main div {
 	text-align: center;
-	}
+}
 
 #maquetacion #contenido main div img {
-width: 75%;
+	width: 50%;
 }
 
 
-#maquetacion #contenido main p{
+#maquetacion #contenido main p {
 	font-family: 'Courier New', Courier, monospace;
 }
 
-#maquetacion #contenido main h1{
-	color: #FEDC00    ;
+#maquetacion #contenido main h1 {
+	color: #FEDC00;
 }
 
-#maquetacion #contenido main h2{
-	color: #e7d458    ;
+#maquetacion #contenido main h2 {
+	color: #e7d458;
 }
 
-#maquetacion #contenido main h1 a{
+#maquetacion #contenido main h1 a {
 	text-decoration: none;
 	color: white;
 }
 
-#maquetacion #contenido main .siguiente{
+#maquetacion #contenido main .siguiente {
 	text-align: right;
 }
-#maquetacion #contenido main .siguiente a{
-	
+
+#maquetacion #contenido main .siguiente a {
+
 	text-decoration: none;
 	color: white;
 }
 
-#maquetacion footer{
+#maquetacion footer {
 
 	background-color: #FEDC00;
-	font-size: 12pt;	
+	font-size: 12pt;
 	color: rgb(1, 1, 1);
 	display: flex;
 	width: 100%;
-	padding-top:10px;
-	padding-bottom:10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 
+}
+
+#maquetacion footer a {
+	text-decoration: none;
+	list-style-type: none;
 }
 
 
@@ -120,72 +133,71 @@ width: 75%;
 
 
 /*Tienda*/
-#contenido main section{
+#contenido main section {
 	display: flex;
 	flex-wrap: wrap;
 }
 
 
-#contenido main section article{
-	background-color:#1a294c;
-	border:0 solid transparent;
+#contenido main section article {
+	background-color: #1a294c;
+	border: 0 solid transparent;
 	border-radius: 15px;
 	text-align: center;
 
-	flex:0 0 30%;		
-	margin:1%;
+	flex: 0 0 30%;
+	margin: 1%;
 }
 
-#contenido main section article p{
+#contenido main section article p {
 	color: white;
 	font-size: 12pt;
 
 	width: 85%;
-	margin: 20px auto;	
+	margin: 20px auto;
 }
 
-#contenido main section article img{
-	width: 50%;	
+#contenido main section article img {
+	width: 50%;
 }
 
-#contenido main section article .precio{
+#contenido main section article .precio {
 	text-align: right;
 	font-size: 18pt;
 	font-weight: bolder;
 }
 
-#contenido main section article .boton{
-	background-color:#af2432;
-	color:#e7d458;
+#contenido main section article .boton {
+	background-color: #af2432;
+	color: #e7d458;
 	text-align: center;
 	font-weight: bolder;
 	font-size: 14pt;
 	border-radius: 5px;
 
 	width: 50%;
-	padding: 5px;	
+	padding: 5px;
 }
 
 /*publicidad*/
 
-
-	
-
-#maquetacion #contenido aside .anuncio{
-	background-color:#e7d458;
+#maquetacion #contenido aside .anuncio {
+	background-color: #e7d458;
 	text-align: center;
 	margin: 15px auto;
 	width: 90%;
 
 }
-#maquetacion #contenido aside .anuncio img{
+
+#maquetacion #contenido aside .anuncio img {
 	width: 100px;
 	padding-top: 5px;
 }
-#maquetacion #contenido aside .anuncio img+a{
+
+#maquetacion #contenido aside .anuncio img+a {
 	width: 75%;
 	margin: 3px auto;
-	text-align: center;	
-	text-decoration: none;	
-	color: #1a294c;	
+	text-align: center;
+	text-decoration: none;
+	color: #1a294c;
 }
