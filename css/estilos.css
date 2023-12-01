@@ -165,3 +165,27 @@ width: 75%;
 	width: 50%;
 	padding: 5px;	
 }
+
+/*publicidad*/
+
+
+	
+
+#maquetacion #contenido aside .anuncio{
+	background-color:#e7d458;
+	text-align: center;
+	margin: 15px auto;
+	width: 90%;
+
+}
+#maquetacion #contenido aside .anuncio img{
+	width: 100px;
+	padding-top: 5px;
+}
+#maquetacion #contenido aside .anuncio img+a{
+	width: 75%;
+	margin: 3px auto;
+	text-align: center;	
+	text-decoration: none;	
+	color: #1a294c;	
+}
